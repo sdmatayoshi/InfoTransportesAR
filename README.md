@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th>
-      ㅤ◈ <b>Main branch:</b>
+      ㅤ◈ <b>Main branch (compressed):</b>
     </th>
     <th>
       main.zip
@@ -31,13 +31,13 @@
   </tr>
   <tr>
     <th>
-      ㅤ◈ <b>Coming soon:</b>
+      ㅤ◈ <b>Main branch (decompressed):</b>
     </th>
     <th>
       -
     </th>
     <th>
-      <a href="#"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
+      <a href="https://github.com/sdmatayoshi/InfoTransportesAR.git"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
     </th>
   </tr>
 </table>
