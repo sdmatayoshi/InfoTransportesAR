@@ -37,7 +37,7 @@
       -
     </th>
     <th>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank" rel="noopener noreferrer"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
     </th>
   </tr>
 </table>
