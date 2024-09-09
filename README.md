@@ -31,13 +31,13 @@
   </tr>
   <tr>
     <th>
-      ㅤ◈ <b>Main branch (decompressed):</b>
+      ㅤ◈ <b>Comming soon:</b>
     </th>
     <th>
       -
     </th>
     <th>
-      <a href="https://github.com/sdmatayoshi/InfoTransportesAR.git"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"><img src="https://github.com/sdmatayoshi/V-chan/assets/106670145/ce129379-faeb-48fa-98a5-0769f39e12db" style="width:1rem;margin-top:5px"><u>⇩</u></a>
     </th>
   </tr>
 </table>
