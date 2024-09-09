@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th>
-      ㅤ◈ <b>Main branch (compressed):</b>
+      ㅤ◈ <b>Main branch:</b>
     </th>
     <th>
       main.zip
