@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List of users</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>List of users</h1>
+        <table id="userTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>create_time</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        var users =  '[]'; 
+
+        users = JSON.parse(users);
+
+        users.forEach(function(user) {
+            $('#userTable tbody').append(
+                `<tr>
+                    <td>${user.id}</td>
+                    <td>${user.usu_nombre}</td>
+                    <td>${user.usu_email}</td>
+                    <td>${user.fecha_alta}</td>
+                </tr>`
+            );
+        });
+    </script>
+</body>
+</html>
