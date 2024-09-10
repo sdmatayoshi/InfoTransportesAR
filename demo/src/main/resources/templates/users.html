@@ -2,41 +2,30 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>List of users</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>List of Users</title>
 </head>
 <body>
     <div class="container mt-5">
-        <h1>List of users</h1>
+        <h1>List of Users</h1>
         <table id="userTable" class="table table-striped">
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>create_time</th>
+                    <th>Create Time</th>
                 </tr>
             </thead>
             <tbody>
+                <!-- Itera sobre la lista de usuarios y crea una fila para cada usuario -->
+                <tr th:each="user : ${users}">
+                    <td th:text="${user.id}">ID</td>
+                    <td th:text="${user.usu_nombre}">Name</td>
+                    <td th:text="${user.usu_email}">Email</td>
+                    <td th:text="${user.fecha_alta}">Create Time</td>
+                </tr>
             </tbody>
         </table>
     </div>
-
-    <script type="text/javascript">
-        var users =  '[]'; 
-
-        users = JSON.parse(users);
-
-        users.forEach(function(user) {
-            $('#userTable tbody').append(
-                `<tr>
-                    <td>${user.id}</td>
-                    <td>${user.usu_nombre}</td>
-                    <td>${user.usu_email}</td>
-                    <td>${user.fecha_alta}</td>
-                </tr>`
-            );
-        });
-    </script>
 </body>
 </html>
