@@ -75,5 +75,18 @@ public class UserController {
         userRepository.save(user); 
         return "redirect:/users"; 
     }
+    @GetMapping("/user/create")
+    public String showCreateUserForm(Model model) {
+        model.addAttribute("user", new User()); // Crea un nuevo objeto User
+        return "create"; // Nombre de la vista para crear un usuario
+    }
+
+    @PostMapping("/user/generate")
+    public String createUser(@ModelAttribute User user) {
+        userRepository.save(user); // Guarda el nuevo usuario en la base de datos
+        return "redirect:/users"; // Redirige a la lista de usuarios
+    }
+
+    
 
 }
