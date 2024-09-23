@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Usuario</title>
+    <link rel="stylesheet" href="/css/estilo.css"> <!-- Incluye tu CSS si lo necesitas -->
+</head>
+<body>
+    <div class="container">
+        <h1>Detalles del Usuario</h1>
+        <div th:if="${errorMessage}" class="alert alert-danger">
+            <p th:text="${errorMessage}"></p>
+        </div>
+
+        <div th:if="${user != null}">
+            <p><strong>ID:</strong> <span th:text="${user.id}"></span></p>
+            <p><strong>Email:</strong> <span th:text="${user.usu_nombre}"></span></p>
+            
+        </div>
+
+        <a href="/users" class="btn btn-primary">Volver a la lista de usuarios</a>
+    </div>
+</body>
+</html>
